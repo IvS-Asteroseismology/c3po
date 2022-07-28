@@ -1,6 +1,6 @@
 ## Modelling a gravity-mode pulsator
 
-The neural network for Computing Pulsation Periods and Photospheric Observables (`C-3PO`) is trained on a grid of MESA stellar evolution models and GYRE pulsation models, covering the entire γ Doradus instability strip. `C-3PO` is integrated into a forward modelling scheme designed by [Mombarg et al. (2021)](https://www.aanda.org/articles/aa/pdf/2021/06/aa39543-20.pdf) to estimate the stellar mass and age from the observed prograde dipole gravity-mode pulsations, and optionally also the luminosity, effective temperature, and surface gravity.
+The neural network for Computing Pulsation Periods and Photospheric Observables (`C-3PO`) is trained on a grid of MESA stellar evolution models and GYRE pulsation models, covering the entire γ Doradus instability strip. `C-3PO` is integrated into a forward modelling scheme designed by [Mombarg et al. (2021)](https://www.aanda.org/articles/aa/pdf/2021/06/aa39543-20.pdf) to estimate the stellar mass and age from the observed prograde dipole gravity-mode pulsations, and optionally also the luminosity, effective temperature, and surface gravity. The `C-3PO` network can be downloaded [here](https://doi.org/10.5281/zenodo.6925830).
 
 
 ### Prerequisites
