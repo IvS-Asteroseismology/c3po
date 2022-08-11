@@ -12,4 +12,6 @@ conda activate keras-env
 pip install -r ./requirements.txt
 ```
 
-You can then simply run `Model_star.py` once you have set all the correct paths in this file. The neural network modules are relatively large. If your system cannot handle it, you can try to load only a few of the `C-3PO_Zext_npg15-91_P_*.h5` modules.
+You can then simply run `Model_star.py` once you have set all the correct paths in this file. The neural network modules are relatively large. If your system cannot handle this, you can try to load only a few of the `C-3PO_Zext_npg15-91_P_*.h5` modules.
+
+An online tutorial on asteroseismic modelling with `C-3PO` that I gave at the TASC6/KASC13 conference can be found [here](https://www.youtube.com/watch?v=0WBb-qwNsWs).
