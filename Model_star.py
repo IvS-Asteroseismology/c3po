@@ -468,8 +468,8 @@ sigma_min_f_rot, sigma_plus_f_rot, log_L, log_L_err_low, log_L_err_up, n_sig, N_
                 Sigma = np.diag(list([val**2 for sublist in sigma_P_NN for val in sublist]) + list([(val)**2 for sublist in sigma_dP_NN for val in sublist]))
                 Sigma_P  = np.diag(list([val**2 for sublist in sigma_P_NN for val in sublist]))
                 Sigma_dP = np.diag(list([(val)**2 for sublist in sigma_dP_NN for val in sublist]))
-                Lambda_inv = np.linalg.inv(Lambda + Sigma)
-                chi2.append(float(np.matmul((Y[i] - Yobs[0]), np.matmul(Lambda_inv, (Y[i] - Yobs[0]).T))))
+                #Lambda_inv = np.linalg.inv(Lambda + Sigma)
+                #chi2.append(float(np.matmul((Y[i] - Yobs[0]), np.matmul(Lambda_inv, (Y[i] - Yobs[0]).T))))
 
                 n_idx = [n_ - 15 for sublist in n_pg_closest[i] for n_ in sublist]
                 Vcut_P  = Vtot_P
